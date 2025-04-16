@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Clean.png" />
+    <None Remove="Delete.png" />
+    <None Remove="Edit.png" />
+    <None Remove="Icon.png" />
+    <None Remove="Imagem do WhatsApp de 2025-04-14 à%28s%29 15.03.00_9060c21b.jpg" />
+    <None Remove="Save.png" />
+    <None Remove="Search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Clean.png" />
+    <Resource Include="Delete.png" />
+    <Resource Include="Edit.png" />
+    <Resource Include="Icon.png" />
+    <Resource Include="Save.png" />
+    <Resource Include="Search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

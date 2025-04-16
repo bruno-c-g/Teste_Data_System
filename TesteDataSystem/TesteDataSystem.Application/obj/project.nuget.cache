@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "daoe/V7NqDMm1ALeX9k0P9d6eAMPOimnEelj3m5dfYRpS8Oz2sX0bwy/mMLy/K41KRNtK5t9OHtU9NhVFtQJjQ==",
+  "success": true,
+  "projectFilePath": "D:\\Workspace\\Teste_Data_System\\TesteDataSystem\\TesteDataSystem.Application\\TesteDataSystem.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ti\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\ti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ti\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
