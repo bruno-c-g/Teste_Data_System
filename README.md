@@ -12,16 +12,16 @@
 
 ## Instruções para rodar a aplicação
 
-1. Crie um banco no SQL de nome DataSystem  
+1. Crie um banco no SQL de nome DataSystem ou utilize um banco de sua preferência (que não possua tabelas criadas) 
 2. Abra o projeto TesteDataSystem no VisualStudio  
 3. Modifique a string de conexão de acordo com suas configurações  
    A string de conexão está no arquivo appsettings.json que se encontra  
 no projeto TesteDataSystem.Presentation.  
    "DefaultConnection": "Server=BRUNO;DataBase=DataSystem;User Id=sa;Password=2991;"  
-   Modifique o Server, User ID e Password de acordo com suas configurações  
+   Modifique o Server, DataBase, User ID e Password de acordo com suas configurações  
 4. Suba o banco de dados para SQL  
    No VisualStudio clique em Ferramentas -> Gerenciador de Pacotes Nuget -> Console do Gerenciador de Pacotes  
-   No Cosole que foi aberto, selecione o projeto TesteDataSystem.Infrastructure como Projeto padrão  
+   No Console que foi aberto, selecione o projeto TesteDataSystem.Infrastructure como Projeto padrão  
    Execute o comando update-database  
 5. Execute a solução TesteDataSystem  
 6. Abra o projeto FrontTestDataSystem no VisualStudio  
